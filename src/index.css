@@ -7,10 +7,12 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   body {
     margin: 0;
+    overflow-x: hidden;
     font-family: 'Outfit', system-ui, sans-serif;
     color: #0f252a;
     background: #ffffff;
@@ -21,6 +23,11 @@
 
   img {
     max-width: 100%;
+  }
+
+  #root {
+    min-height: 100vh;
+    overflow-x: hidden;
   }
 }
 
